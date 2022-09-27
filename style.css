@@ -1,0 +1,243 @@
+pag{
+    display:flex;
+    margin-left: 180px;
+    margin-bottom: 50px;
+    
+}
+#logo{
+    width: 136px;
+    height: 104px;
+    left: 05px;
+    top: 01px;
+    
+}
+
+.encriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 330px;
+    height: 67px;
+    left: 290px;
+    top: 735px;
+    background-image: url(imagenes/incriptado.png);
+}
+.desencriptar{ 
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #143a6b;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    background-image: url(imagenes/desencriptar.png);
+    /*posiscion*/
+    position: absolute;
+    width: 330px;
+    height: 67px;
+    left: 780px;
+    top: 735px;
+
+}
+
+.mensaje{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    position: absolute;
+    width: 355px;
+    height: 881px;
+    left: 1526px;
+    top: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    --bg: #e5e5e5;
+    --shadowLg: #495057;
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Bellota', cursive;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+}
+
+body{
+    width: 99%;
+    height: 90vh;
+    background-color: #FBEEED;
+}
+.input-texto{
+position: absolute;
+width: 980px;
+height: 488px;
+left: 190px;
+top: 168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+
+
+color: #0A3871;
+display: block;
+font-weight: 100;
+text-align: center;
+font-family: 'Bellota', cursive;
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+color: #444444;
+   
+}
+.copiar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 336px;
+    height: 70px;
+    left: 1539px;
+    top: 835px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-image: url(imagenes/copiar.png);
+
+}
+
+.resultado{
+
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1545px;
+    top: 283px;
+    font-weight: 100;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RELOJ*/
+span{
+    --bg: #e5e5e5;
+    --shadowLg: #495057;
+    --shadow: rgb(199, 194, 91);
+}
+span{
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Bellota', cursive;
+}
+span:nth-child(1){
+    position: relative;
+    width: 240px;
+    line-height: 150px;
+    border-radius: 950px;
+    font-size: 79px;
+    box-shadow: -15px -15px 15px var(--shadowLg),
+    15px 15px 15px var(--shadow),
+    inset -15px -15px 15px var(--shadowLg),
+    inset 15px 15px 15px var(--shadow);
+    color: #444444;
+
+    position: absolute;
+    width: 236px;
+    height: 154px;
+    left: 1275px;
+    top: 72px;
+}
+span:nth-child(2)
+{
+    line-height: 75px;
+    font-size: 26px;
+    color: #5d5d5d;
+}

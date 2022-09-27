@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Incriptador</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <img src="/imagenes/logo.png" alt="Logo de alura">
+    </header>
+    <body onload="TIEMPO()">
+        <div class="reloj">
+            <span id="time"></span>
+            <span id="data"></span>
+        </div>
+        <!--------------------------------------------------------------------->
+            <section>
+                <textarea class="input-texto"cols="40" rown="6"
+                placeholder="Ingrese el texto aqui"></textarea>
+                <div class="botones">
+                    <button class="encriptar" onclick="btnEncriptar()"></button>
+                    <button class="desencriptar" onclick="btnDesencriptar()"></button>
+                </div>
+            </section>      
+            <!------------------------------------------------------------------>
+            <section>
+                <textarea class="mensaje" cols="18" rows="8"></textarea>
+                <button class="copiar" onclick="Copiar()"></button>
+            </section>
+        <!---------------------------------------------------------------------->
+        <section class="resultado" cols="18" rows="8" placeholder="Ningun mensaje fue encontrado Ingresa el texto que desees encriptar o desencriptar.">
+        </section>
+        <script src="script.js" async defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script src="aler.js"></script>
+    </body>
+</html>
